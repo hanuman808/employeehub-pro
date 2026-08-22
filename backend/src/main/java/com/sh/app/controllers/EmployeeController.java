@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.sh.app.entity.Employee;
 import com.sh.app.services.EmployeeService;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(originPatterns = "*", allowCredentials = "false")
 @RestController
 @RequestMapping("/api")
 public class EmployeeController {
