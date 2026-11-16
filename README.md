@@ -54,8 +54,3 @@ EmployeeHub Pro is an **Enterprise Workforce Management System** designed to str
 - MySQL Server
 - Maven
 
-### Steps
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/shivamsurwase/EmployeHub.git
-   cd EmployeHub
